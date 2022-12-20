@@ -22,7 +22,7 @@ class Comp1 extends React.Component {
         let comments = this.state.comment;
         comments.push(comment);
         this.setState({ 'comments': comments });
-        
+        console.log(comments);
         this.myRef.current.value = '';
     }  
     render() {
